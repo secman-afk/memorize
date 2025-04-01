@@ -1,0 +1,164 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: black; /* All text black */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: black; /* Header text black */
+    padding: 20px 0;
+ 
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    color: black; /* Logo text black */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black; /* Navigation links black */
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Hero Section */
+#home .hero {
+    background-image: url('eyelash-hero.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#home .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#home .hero .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Image Frame Style */
+.image-frame {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+    display: inline-block;
+    text-align: center; /* Ensures images are centered within the frame */
+}
+
+.image-frame img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Services Section */
+#services {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#services .service {
+    margin: 30px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top; /* Ensures the services are aligned properly */
+}
+
+#services .service h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#services .service p {
+    font-size: 1rem;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea {
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
